@@ -1,0 +1,21 @@
+{
+  "name": "Vilisov-BBD-og-image",
+  "version": "1.0.0",
+  "main": "dist/card.ts",
+  "repository": "https://github.com/the-sociophobic/Vilisov-BBD-og-image",
+  "author": "<torikowashi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "now-build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^3.1.1",
+    "puppeteer-core": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer-core": "^2.0.0",
+    "typescript": "^3.9.5"
+  }
+}
